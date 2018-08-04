@@ -1,0 +1,15 @@
+.grid-wrapper {
+    background-color: lightgray;
+    display: grid;
+    grid-template-columns: repeat(24, auto);
+    &.grid-12 {
+        grid-template-columns: repeat(12, auto);
+    }
+    &.grid-8 {
+        grid-template-columns: repeat(8, auto);
+    }
+    .grid-item-wrapper {
+        background-color: #333333;
+        
+    }
+}

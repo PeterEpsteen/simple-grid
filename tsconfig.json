@@ -1,0 +1,22 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+      "outDir": "./lib",
+      "target": "es6",
+      "module": "commonjs",
+      "noImplicitAny": true,
+      "removeComments": true,
+      "declaration": true,
+      "sourceMap": true,
+      "jsx": "react",
+      "rootDir": "./src"
+    },
+    "include": [
+      "./main.js",
+      "./**/*.ts",
+      "./**/*.tsx"
+    ],
+    "exclude": [
+      "node_modules"
+    ]
+  }
